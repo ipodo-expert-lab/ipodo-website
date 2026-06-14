@@ -1,0 +1,15 @@
+:root {
+  /* Цвета брендбука iPODO */
+  --color-steel:    #D6D6D6;
+  --color-platinum: #9B9B9B;
+  --color-gold:     #E5D0A5;
+  --color-graphite: #474747;
+
+  /* Типографика */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body:    'Montserrat', sans-serif;
+
+  /* Отступы */
+  --spacing-section: 7rem;
+  --radius:          20px;
+}
