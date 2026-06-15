@@ -31,5 +31,25 @@
       "desc": "Pasivni prihod 1% mjesečno. Mi upravljamo — vi zarađujete. Od 100.000 €. Garantovano.",
       "cta": "Postati investitor"
     }
+  },
+  "services": {
+    "header": "Naše usluge",
+    "title": "Sve što vam treba",
+    "podology": {
+      "title": "Podologija",
+      "desc": "Medicinska njega stopala. Liječenje gljivica, uraslih noktiju, žuljeva. Sterilni instrumenti."
+    },
+    "manicure": {
+      "title": "Manikir & Pedikir",
+      "desc": "Aparatni i klasični manikir. Gel lak. Sigurno i lijepo."
+    },
+    "hair": {
+      "title": "Frizerski salon",
+      "desc": "Šišanje, bojenje, tretmani njege. Profesionalni majstori."
+    },
+    "brows": {
+      "title": "Obrve & Trepavice",
+      "desc": "Korekcija i bojenje obrva. Nadogradnja i laminacija trepavica."
+    }
   }
 }

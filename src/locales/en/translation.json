@@ -31,5 +31,25 @@
       "desc": "Passive income 1% per month. We manage — you earn. From €100,000. Guaranteed.",
       "cta": "Become an investor"
     }
+  },
+  "services": {
+    "header": "Our services",
+    "title": "Everything you need",
+    "podology": {
+      "title": "Podology",
+      "desc": "Medical foot care. Treatment of fungus, ingrown nails, calluses. Sterile instruments."
+    },
+    "manicure": {
+      "title": "Manicure & Pedicure",
+      "desc": "Hardware and classic manicure. Gel polish. Safe and beautiful."
+    },
+    "hair": {
+      "title": "Hair salon",
+      "desc": "Haircuts, coloring, care treatments. Professional stylists."
+    },
+    "brows": {
+      "title": "Brows & Lashes",
+      "desc": "Brow correction and tinting. Lash extensions and lamination."
+    }
   }
 }
