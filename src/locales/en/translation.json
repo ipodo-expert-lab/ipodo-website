@@ -51,5 +51,17 @@
       "title": "Brows & Lashes",
       "desc": "Brow correction and tinting. Lash extensions and lamination."
     }
+  },
+  "contact": {
+    "header": "Get in touch",
+    "title": "Write to us",
+    "sub": "Book a service, learn about franchise terms, or ask any question.",
+    "name": "Name",
+    "phone": "Phone",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submit": "Send",
+    "successTitle": "Thank you!",
+    "successSub": "We received your message and will get back to you shortly."
   }
 }

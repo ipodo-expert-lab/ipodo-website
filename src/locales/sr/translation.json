@@ -51,5 +51,17 @@
       "title": "Obrve & Trepavice",
       "desc": "Korekcija i bojenje obrva. Nadogradnja i laminacija trepavica."
     }
+  },
+  "contact": {
+    "header": "Kontaktirajte nas",
+    "title": "Pišite nam",
+    "sub": "Zakažite uslugu, saznajte o uslovima franšize ili postavite bilo koje pitanje.",
+    "name": "Ime",
+    "phone": "Telefon",
+    "message": "Poruka",
+    "messagePlaceholder": "Kako možemo pomoći?",
+    "submit": "Pošalji",
+    "successTitle": "Hvala!",
+    "successSub": "Primili smo vašu poruku i javićemo vam se što prije."
   }
 }
