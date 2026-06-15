@@ -12,3 +12,13 @@
   --spacing-section: 7rem;
   --radius: 20px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
