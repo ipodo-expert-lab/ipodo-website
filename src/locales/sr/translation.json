@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "services": "Usluge",
+    "franchise": "Franšiza",
+    "invest": "Investicije",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "iPODO · Centar podologije i ljepote · Crna Gora",
+    "line1": "iPODO —",
+    "line2": "više od",
+    "line3": "salona.",
+    "sub": "Medicinski pristup. Salonska usluga. Partnerstvo. Sve na jednom mjestu.",
+    "cta1": "Naše usluge",
+    "cta2": "Franšiza i investicije"
+  },
+  "directions": {
+    "header": "Odaberite svoj smjer",
+    "clients": {
+      "title": "Klijentima",
+      "desc": "Podologija, manikir, pedikir, frizerske usluge, obrve. Medicinski pristup — salonska usluga.",
+      "cta": "Zakazati"
+    },
+    "franchise": {
+      "title": "Franšiza",
+      "desc": "Gotov sistem. Brend. Standardi. Podrška. Otvorite svoj iPODO studio od 5.000 €.",
+      "cta": "Saznajte o franšizi"
+    },
+    "invest": {
+      "title": "Investicije",
+      "desc": "Pasivni prihod 1% mjesečno. Mi upravljamo — vi zarađujete. Od 100.000 €. Garantovano.",
+      "cta": "Postati investitor"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import Nav from '../components/Nav'
 import Hero from '../sections/Hero'
+import Paths from '../sections/Paths'
 
 export default function Home() {
   return (
@@ -7,9 +8,7 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
-        {/* Paths — 3 направления */}
-        {/* Agent block */}
-        {/* Footer */}
+        <Paths />
       </main>
     </>
   )

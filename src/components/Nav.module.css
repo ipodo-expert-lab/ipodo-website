@@ -20,8 +20,13 @@
 .logo {
   font-family: var(--font-display);
   font-size: 24px;
-  color: var(--color-graphite);
+  color: #fff;
   text-decoration: none;
+  transition: color 0.3s;
+}
+
+.scrolled .logo {
+  color: var(--color-graphite);
 }
 
 .links {
@@ -34,11 +39,53 @@
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-graphite);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   transition: color 0.2s;
 }
 
+.scrolled .links a {
+  color: var(--color-graphite);
+}
+
 .links a:hover {
   color: var(--color-gold);
+}
+
+.langSwitcher {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.langBtn {
+  font-family: var(--font-body);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 2px;
+  transition: color 0.2s;
+}
+
+.scrolled .langBtn {
+  color: var(--color-platinum);
+}
+
+.langBtn:hover {
+  color: var(--color-gold);
+}
+
+.langActive {
+  color: #fff;
+  border-bottom: 1px solid var(--color-gold);
+  padding-bottom: 2px;
+}
+
+.scrolled .langActive {
+  color: var(--color-graphite);
 }

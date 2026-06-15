@@ -1,53 +1,31 @@
+import { useTranslation } from 'react-i18next'
 import styles from './Hero.module.css'
 
 export default function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section className={styles.hero}>
-
-      {/* Видео фон */}
-      <video
-        className={styles.heroBg}
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
+      <video className={styles.heroBg} autoPlay muted loop playsInline>
         <source src="/video/hero.mp4" type="video/mp4" />
       </video>
-
-      {/* Тёмный оверлей */}
       <div className={styles.heroOverlay} />
-
-      {/* Контент */}
       <div className={styles.heroContent}>
         <div className={styles.eyebrow}>
           <span className={styles.eyebrowDot} />
-          <span className={styles.eyebrowText}>
-            iPODO · Centre of Podology & Beauty · Черногория
-          </span>
+          <span className={styles.eyebrowText}>{t('hero.eyebrow')}</span>
         </div>
-
         <h1 className={styles.heroTitle}>
-          iPODO —<br />
-          больше чем<br />
-          <em>салон.</em>
+          {t('hero.line1')}<br />
+          {t('hero.line2')}<br />
+          <em>{t('hero.line3')}</em>
         </h1>
-
-        <p className={styles.heroSub}>
-          Медицинский подход. Салонный сервис. Партнёрство.<br />
-          Всё в одном месте.
-        </p>
-
+        <p className={styles.heroSub}>{t('hero.sub')}</p>
         <div className={styles.heroCta}>
-          <a href="#services" className={styles.btnPrimary}>
-            Наши услуги
-          </a>
-          <a href="/franchise" className={styles.btnSecondary}>
-            Франшиза и инвестиции
-          </a>
+          <a href="#services" className={styles.btnPrimary}>{t('hero.cta1')}</a>
+          <a href="/franchise" className={styles.btnSecondary}>{t('hero.cta2')}</a>
         </div>
       </div>
-
     </section>
   )
 }

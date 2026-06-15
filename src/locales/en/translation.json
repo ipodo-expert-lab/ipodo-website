@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "services": "Services",
+    "franchise": "Franchise",
+    "invest": "Investment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "iPODO · Centre of Podology & Beauty · Montenegro",
+    "line1": "iPODO —",
+    "line2": "more than",
+    "line3": "a salon.",
+    "sub": "Medical approach. Salon service. Partnership. All in one place.",
+    "cta1": "Our services",
+    "cta2": "Franchise & investment"
+  },
+  "directions": {
+    "header": "Choose your direction",
+    "clients": {
+      "title": "Clients",
+      "desc": "Podology, manicure, pedicure, hairdressing, brows. Medical precision — salon experience.",
+      "cta": "Book now"
+    },
+    "franchise": {
+      "title": "Franchise",
+      "desc": "Ready system. Brand. Standards. Support. Open your iPODO studio from €5,000.",
+      "cta": "Learn about franchise"
+    },
+    "invest": {
+      "title": "Investment",
+      "desc": "Passive income 1% per month. We manage — you earn. From €100,000. Guaranteed.",
+      "cta": "Become an investor"
+    }
+  }
+}
