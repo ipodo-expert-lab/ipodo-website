@@ -1,6 +1,7 @@
 import Nav from '../components/Nav'
 import Hero from '../sections/Hero'
 import Paths from '../sections/Paths'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
         <Paths />
       </main>
+      <Footer />
     </>
   )
 }
