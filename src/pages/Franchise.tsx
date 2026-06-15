@@ -1,18 +1,16 @@
 import Nav from '../components/Nav'
-import Hero from '../sections/home/Hero'
-import Paths from '../sections/home/Paths'
-import Services from '../sections/home/Services'
+import FranchiseHero from '../sections/franchise/FranchiseHero'
+import FranchiseAbout from '../sections/franchise/FranchiseAbout'
 import Contact from '../sections/home/Contact'
 import Footer from '../components/Footer'
 
-export default function Home() {
+export default function Franchise() {
   return (
     <>
       <Nav />
       <main>
-        <Hero />
-        <Paths />
-        <Services />
+        <FranchiseHero />
+        <FranchiseAbout />
         <Contact />
       </main>
       <Footer />

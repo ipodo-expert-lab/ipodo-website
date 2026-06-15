@@ -63,5 +63,15 @@
     "submit": "Pošalji",
     "successTitle": "Hvala!",
     "successSub": "Primili smo vašu poruku i javićemo vam se što prije."
+  },
+  "franchise": {
+    "eyebrow": "iPODO · Franšiza",
+    "title": "Vaš iPODO\nstudio —\ngotov sistem.",
+    "sub": "Ne gradite od nule. Uđite u gotov brend, standarde i podršku — sve uključeno.",
+    "cta1": "Odaberi format",
+    "cta2": "Postavi pitanje",
+    "stat1": "Minimalni start",
+    "stat2": "Do otvaranja",
+    "stat3": "Partnera"
   }
 }

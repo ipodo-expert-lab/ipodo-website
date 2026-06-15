@@ -63,5 +63,15 @@
     "submit": "Send",
     "successTitle": "Thank you!",
     "successSub": "We received your message and will get back to you shortly."
-  }
+  },
+  "franchise": {
+  "eyebrow": "iPODO · Franchise",
+  "title": "Your iPODO\nstudio —\nready system.",
+  "sub": "Don't build from scratch. Join a ready-made brand, standards and support — all included.",
+  "cta1": "Choose format",
+  "cta2": "Ask a question",
+  "stat1": "Minimum start",
+  "stat2": "To opening",
+  "stat3": "Partners"
+}
 }
