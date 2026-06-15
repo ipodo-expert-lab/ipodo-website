@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link, useLocation } from 'react-router-dom'
 import styles from './Nav.module.css'
 
 export default function Nav() {
   const { t, i18n } = useTranslation()
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const location = useLocation()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50)
@@ -13,14 +15,15 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // Закрывать меню при скролле
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = ''
     }
-    return () => { document.body.style.overflow = '' }
+    return () => {
+      document.body.style.overflow = ''
+    }
   }, [menuOpen])
 
   const changeLang = (lang: string) => {
@@ -30,17 +33,33 @@ export default function Nav() {
 
   const closeMenu = () => setMenuOpen(false)
 
+  const scrollToSection = (id: string) => {
+    closeMenu()
+    if (location.pathname !== '/') {
+      window.location.href = `/#${id}`
+    } else {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <>
-      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}>
-        <a href="/" className={styles.logo}>iPODO</a>
+      <nav
+        className={`${styles.nav} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuIsOpen : ''}`}
+      >
+        <Link to="/" className={styles.logo}>
+          iPODO
+        </Link>
 
-        {/* Десктоп меню */}
         <div className={styles.links}>
-          <a href="#services">{t('nav.services')}</a>
-          <a href="#franchise">{t('nav.franchise')}</a>
-          <a href="#invest">{t('nav.invest')}</a>
-          <a href="#contact">{t('nav.contact')}</a>
+          <button className={styles.navBtn} onClick={() => scrollToSection('services')}>
+            {t('nav.services')}
+          </button>
+          <Link to="/franchise">{t('nav.franchise')}</Link>
+          <Link to="/invest">{t('nav.invest')}</Link>
+          <button className={styles.navBtn} onClick={() => scrollToSection('contact')}>
+            {t('nav.contact')}
+          </button>
         </div>
 
         <div className={styles.navRight}>
@@ -56,7 +75,6 @@ export default function Nav() {
             ))}
           </div>
 
-          {/* Бургер */}
           <button
             className={`${styles.burger} ${menuOpen ? styles.burgerOpen : ''}`}
             onClick={() => setMenuOpen(!menuOpen)}
@@ -69,13 +87,20 @@ export default function Nav() {
         </div>
       </nav>
 
-      {/* Мобильное меню */}
       <div className={`${styles.mobileMenu} ${menuOpen ? styles.mobileMenuOpen : ''}`}>
         <div className={styles.mobileLinks}>
-          <a href="#services" onClick={closeMenu}>{t('nav.services')}</a>
-          <a href="#franchise" onClick={closeMenu}>{t('nav.franchise')}</a>
-          <a href="#invest" onClick={closeMenu}>{t('nav.invest')}</a>
-          <a href="#contact" onClick={closeMenu}>{t('nav.contact')}</a>
+          <button className={styles.mobilNavBtn} onClick={() => scrollToSection('services')}>
+            {t('nav.services')}
+          </button>
+          <Link to="/franchise" onClick={closeMenu}>
+            {t('nav.franchise')}
+          </Link>
+          <Link to="/invest" onClick={closeMenu}>
+            {t('nav.invest')}
+          </Link>
+          <button className={styles.mobilNavBtn} onClick={() => scrollToSection('contact')}>
+            {t('nav.contact')}
+          </button>
         </div>
 
         <div className={styles.mobileLang}>
@@ -91,7 +116,9 @@ export default function Nav() {
         </div>
 
         <div className={styles.mobileFooter}>
-          <a href="tel:+38269295111" className={styles.mobilePhone}>+382 69 295 111</a>
+          <a href="tel:+38269295111" className={styles.mobilePhone}>
+            +382 69 295 111
+          </a>
         </div>
       </div>
     </>

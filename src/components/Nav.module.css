@@ -38,6 +38,7 @@
 .links {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .links a {
@@ -55,6 +56,28 @@
 }
 
 .links a:hover {
+  color: var(--color-gold);
+}
+
+/* Nav buttons (Услуги, Контакт) */
+.navBtn {
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.scrolled .navBtn {
+  color: var(--color-graphite);
+}
+
+.navBtn:hover {
   color: var(--color-gold);
 }
 
@@ -186,6 +209,26 @@
 }
 
 .mobileLinks a:hover {
+  color: var(--color-gold);
+}
+
+/* Mobile nav buttons */
+.mobilNavBtn {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 300;
+  color: var(--color-graphite);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  text-align: left;
+  transition: color 0.2s;
+}
+
+.mobilNavBtn:hover {
   color: var(--color-gold);
 }
 
