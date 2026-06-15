@@ -1,13 +1,11 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./styles/token.css";
-import Nav from './components/Nav'
+// main.tsx — только точка входа, больше ничего
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './styles/variables.css'
+import Home from './pages/Home'
 
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Nav/>
-    <div style={{ height: '200vh', padding: '100px 5%' }}>
-      Прокрутите страницу — навигация меняет фон
-    </div>
-  </StrictMode>,
-);
+    <Home />
+  </StrictMode>
+)
