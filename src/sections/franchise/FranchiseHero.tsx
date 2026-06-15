@@ -7,10 +7,7 @@ export default function FranchiseHero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <div className={styles.eyebrow}>
-          <span className={styles.dot} />
-          <span>{t('franchise.eyebrow')}</span>
-        </div>
+        
         <h1 className={styles.title}>{t('franchise.title')}</h1>
         <p className={styles.sub}>{t('franchise.sub')}</p>
         <div className={styles.cta}>

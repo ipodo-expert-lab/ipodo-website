@@ -1,24 +1,27 @@
-import styles from './InvestHero.module.css'
+import styles from "./InvestHero.module.css";
 
 export default function InvestHero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <div className={styles.eyebrow}>
-          <span className={styles.dot} />
-          <span>iPODO · Инвестиции</span>
-        </div>
         <h1 className={styles.title}>
-          Ваши деньги<br />
-          работают.<br />
+          Ваши деньги
+          <br />
+          работают.
+          <br />
           <em>Вы — нет.</em>
         </h1>
         <p className={styles.sub}>
-          Пассивный доход без участия в операционной деятельности. Мы управляем студией — вы получаете доход.
+          Пассивный доход без участия в операционной деятельности. Мы управляем
+          студией — вы получаете доход.
         </p>
         <div className={styles.cta}>
-          <a href="#details" className={styles.btnPrimary}>Узнать условия</a>
-          <a href="#contact" className={styles.btnSecondary}>Задать вопрос</a>
+          <a href="#details" className={styles.btnPrimary}>
+            Узнать условия
+          </a>
+          <a href="#contact" className={styles.btnSecondary}>
+            Задать вопрос
+          </a>
         </div>
       </div>
 
@@ -44,5 +47,5 @@ export default function InvestHero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
