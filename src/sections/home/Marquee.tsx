@@ -3,7 +3,7 @@ import styles from './Marquee.module.css'
 
 export default function Marquee() {
   const { t } = useTranslation()
-  const items: string[] = t('marquee.items', { returnObjects: true })
+  const items = t('marquee.items', { returnObjects: true }) as string[]
   const repeated = [...items, ...items, ...items]
 
   return (
