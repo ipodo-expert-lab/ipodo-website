@@ -127,5 +127,11 @@
   "header": "Our studio",
   "title": "The iPODO atmosphere",
   "hint": "← →"
+},
+"stats": {
+  "years":    "years on the market",
+  "clients":  "happy clients",
+  "income":   "monthly return",
+  "franchise": "franchise entry"
 }
 }

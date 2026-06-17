@@ -136,5 +136,11 @@
     "header": "Naš studio",
     "title": "Atmosfera iPODO",
     "hint": "← →"
+  },
+  "stats": {
+    "years": "godina na tržištu",
+    "clients": "zadovoljnih klijenata",
+    "income": "prihod mjesečno",
+    "franchise": "start franšize"
   }
 }
