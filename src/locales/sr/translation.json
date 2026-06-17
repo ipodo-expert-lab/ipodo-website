@@ -73,5 +73,51 @@
     "stat1": "Minimalni start",
     "stat2": "Do otvaranja",
     "stat3": "Partnera"
+  },
+  "faq": {
+    "header": "Česta pitanja",
+    "title": "Odgovori na glavna pitanja",
+    "items": {
+      "start": {
+        "tag": "Obuka",
+        "q": "Odakle početi ako nemam iskustva u beauty industriji?",
+        "a": "Sve počinje besplatnom konsultacijom. Procjenjujemo vaše ciljeve i biramo format — obuka, franšiza ili investicija. Iskustvo nije potrebno."
+      },
+      "duration": {
+        "tag": "Obuka",
+        "q": "Koliko traje obuka za podologa?",
+        "a": "Osnovni kurs traje 3 nedjelje intenzivne obuke. Puni program s praksom na klijentima traje 1 do 3 mjeseca. Dobijate sertifikat međunarodnog standarda."
+      },
+      "income": {
+        "tag": "Obuka",
+        "q": "Kakav prihod mogu očekivati nakon obuke?",
+        "a": "Naši polaznici zarađuju od 2.000 € mjesečno već u prvih 3–6 mjeseci. Majstori s privatnom praksom dostižu 4.000–6.000 € mjesečno."
+      },
+      "formats": {
+        "tag": "Franšiza",
+        "q": "Koji formati franšize postoje?",
+        "a": "Četiri formata: Podofooter (od 5.000 €), Podopoint (od 10.000 €), Podocentre (od 20.000 €) i modularni format po mjeri."
+      },
+      "remote": {
+        "tag": "Investicija",
+        "q": "Moram li biti u Crnoj Gori da bih investirao?",
+        "a": "Ne. Investicije su potpuno na daljinu — možete biti u bilo kojoj zemlji. Ugovor, izvještaji i isplate su online."
+      },
+      "guarantee": {
+        "tag": "Investicija",
+        "q": "Kako je garantovan prinos od 1% mjesečno?",
+        "a": "Prinos je pokriven poslovnim prihodom mreže iPODO studija. Prihod je stabilan i ne zavisi od kursa valuta ili finansijskih tržišta. Svaki investitor dobija mjesečni izvještaj."
+      },
+      "minAmount": {
+        "tag": "Investicija",
+        "q": "Koji je minimalni iznos investicije?",
+        "a": "Minimalni prag je 100.000 €. Uz taj iznos, mjesečni prihod je 1.000 € (12.000 € godišnje)."
+      },
+      "countries": {
+        "tag": "Franšiza",
+        "q": "Mogu li otvoriti franšizu u drugoj zemlji?",
+        "a": "Da. iPODO posluje u Rusiji, Crnoj Gori, Njemačkoj i UAE. Otvaranje u novoj zemlji se dogovara individualno."
+      }
+    }
   }
 }

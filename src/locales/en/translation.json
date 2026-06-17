@@ -65,13 +65,59 @@
     "successSub": "We received your message and will get back to you shortly."
   },
   "franchise": {
-  "eyebrow": "iPODO · Franchise",
-  "title": "Your iPODO\nstudio —\nready system.",
-  "sub": "Don't build from scratch. Join a ready-made brand, standards and support — all included.",
-  "cta1": "Choose format",
-  "cta2": "Ask a question",
-  "stat1": "Minimum start",
-  "stat2": "To opening",
-  "stat3": "Partners"
-}
+    "eyebrow": "iPODO · Franchise",
+    "title": "Your iPODO\nstudio —\nready system.",
+    "sub": "Don't build from scratch. Join a ready-made brand, standards and support — all included.",
+    "cta1": "Choose format",
+    "cta2": "Ask a question",
+    "stat1": "Minimum start",
+    "stat2": "To opening",
+    "stat3": "Partners"
+  },
+  "faq": {
+    "header": "FAQ",
+    "title": "Answers to key questions",
+    "items": {
+      "start": {
+        "tag": "Training",
+        "q": "Where do I start if I have no beauty industry experience?",
+        "a": "Everything begins with a free consultation. We assess your goals and choose the right format — training, franchise or investment. No prior experience required."
+      },
+      "duration": {
+        "tag": "Training",
+        "q": "How long does podology training take?",
+        "a": "The basic course takes 3 weeks of intensive training. The full program with real-client practice takes 1 to 3 months. You receive an internationally recognised certificate upon completion."
+      },
+      "income": {
+        "tag": "Training",
+        "q": "What income can I expect after training?",
+        "a": "Our graduates earn from €2,000 per month within the first 3–6 months. Masters with a private practice reach €4,000–6,000 per month."
+      },
+      "formats": {
+        "tag": "Franchise",
+        "q": "What franchise formats are available?",
+        "a": "Four formats: Podofooter (from €5,000), Podopoint (from €10,000), Podocentre (from €20,000) and a modular build tailored to your needs."
+      },
+      "remote": {
+        "tag": "Investment",
+        "q": "Do I need to be in Montenegro to invest?",
+        "a": "No. Investments are fully remote — you can be in any country. Contract, reports and payments are all handled online."
+      },
+      "guarantee": {
+        "tag": "Investment",
+        "q": "How is the 1% monthly return guaranteed?",
+        "a": "Returns are backed by the operating revenue of the iPODO studio network. Income is stable and independent of currency rates or financial markets. Investors receive a monthly report."
+      },
+      "minAmount": {
+        "tag": "Investment",
+        "q": "What is the minimum investment amount?",
+        "a": "The minimum threshold is €100,000. At this amount your monthly income is €1,000 (€12,000 per year)."
+      },
+      "countries": {
+        "tag": "Franchise",
+        "q": "Can I open a franchise in another country?",
+        "a": "Yes. iPODO operates in Russia, Montenegro, Germany and the UAE. Opening in a new country is discussed individually — we analyse the market and adapt the marketing."
+      }
+    }
+  }
 }
