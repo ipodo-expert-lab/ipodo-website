@@ -8,6 +8,7 @@ import FAQ from "../sections/home/FAQ";
 import Marquee from "../sections/home/Marquee";
 import Gallery from "../sections/home/Gallery";
 import Stats from "../sections/home/Stats";
+import FloatWA from '../components/FloatWA'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <FloatWA />
     </>
   );
 }
