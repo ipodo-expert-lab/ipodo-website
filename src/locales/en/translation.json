@@ -122,5 +122,10 @@
   },
   "marquee": {
   "items": ["Podology", "Manicure & Pedicure", "Hair Salon", "Brows & Lashes", "Franchise", "Investment", "Montenegro", "Medical Approach"]
+},
+"gallery": {
+  "header": "Our studio",
+  "title": "The iPODO atmosphere",
+  "hint": "← →"
 }
 }

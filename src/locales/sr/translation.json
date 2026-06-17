@@ -131,5 +131,10 @@
       "Crna Gora",
       "Medicinski pristup"
     ]
+  },
+  "gallery": {
+    "header": "Naš studio",
+    "title": "Atmosfera iPODO",
+    "hint": "← →"
   }
 }

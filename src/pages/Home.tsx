@@ -6,6 +6,7 @@ import Contact from "../sections/home/Contact";
 import Footer from "../components/Footer";
 import FAQ from "../sections/home/FAQ";
 import Marquee from "../sections/home/Marquee";
+import Gallery from '../sections/home/Gallery'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Paths />
         <Services />
         <FAQ />
+        <Gallery />
         <Contact />
       </main>
       <Footer />
