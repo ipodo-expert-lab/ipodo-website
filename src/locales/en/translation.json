@@ -119,5 +119,8 @@
         "a": "Yes. iPODO operates in Russia, Montenegro, Germany and the UAE. Opening in a new country is discussed individually — we analyse the market and adapt the marketing."
       }
     }
-  }
+  },
+  "marquee": {
+  "items": ["Podology", "Manicure & Pedicure", "Hair Salon", "Brows & Lashes", "Franchise", "Investment", "Montenegro", "Medical Approach"]
+}
 }

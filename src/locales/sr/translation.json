@@ -119,5 +119,17 @@
         "a": "Da. iPODO posluje u Rusiji, Crnoj Gori, Njemačkoj i UAE. Otvaranje u novoj zemlji se dogovara individualno."
       }
     }
+  },
+  "marquee": {
+    "items": [
+      "Podologija",
+      "Manikir & Pedikir",
+      "Frizerski salon",
+      "Obrve & Trepavice",
+      "Franšiza",
+      "Investicija",
+      "Crna Gora",
+      "Medicinski pristup"
+    ]
   }
 }
