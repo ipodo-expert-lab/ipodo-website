@@ -76,7 +76,7 @@
   },
   "faq": {
     "header": "FAQ",
-    "title": "Answers to key questions",
+    "title": "Frequently asked questions",
     "items": {
       "start": {
         "tag": "Training",
@@ -112,26 +112,30 @@
         "tag": "Investment",
         "q": "What is the minimum investment amount?",
         "a": "The minimum threshold is €100,000. At this amount your monthly income is €1,000 (€12,000 per year)."
-      },
-      "countries": {
-        "tag": "Franchise",
-        "q": "Can I open a franchise in another country?",
-        "a": "Yes. iPODO operates in Russia, Montenegro, Germany and the UAE. Opening in a new country is discussed individually — we analyse the market and adapt the marketing."
       }
     }
   },
   "marquee": {
-  "items": ["Podology", "Manicure & Pedicure", "Hair Salon", "Brows & Lashes", "Franchise", "Investment", "Montenegro", "Medical Approach"]
-},
-"gallery": {
-  "header": "Our studio",
-  "title": "The iPODO atmosphere",
-  "hint": "← →"
-},
-"stats": {
-  "years":    "years on the market",
-  "clients":  "happy clients",
-  "income":   "monthly return",
-  "franchise": "franchise entry"
-}
+    "items": [
+      "Podology",
+      "Manicure & Pedicure",
+      "Hair Salon",
+      "Brows & Lashes",
+      "Franchise",
+      "Investment",
+      "Montenegro",
+      "Medical Approach"
+    ]
+  },
+  "gallery": {
+    "header": "Our studio",
+    "title": "The iPODO atmosphere",
+    "hint": "← →"
+  },
+  "stats": {
+    "years": "years on the market",
+    "clients": "happy clients",
+    "income": "monthly return",
+    "franchise": "franchise entry"
+  }
 }

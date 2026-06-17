@@ -7,7 +7,7 @@
 }
 
 .item {
-  padding: 3.5rem 6%;
+  padding: 2.5rem 6%;
   border-right: 1px solid var(--color-steel);
   transition: background 0.2s;
 }

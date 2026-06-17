@@ -75,8 +75,8 @@
     "stat3": "Partnera"
   },
   "faq": {
-    "header": "Česta pitanja",
-    "title": "Odgovori na glavna pitanja",
+    "header": "FAQ",
+    "title": "Često postavljana pitanja",
     "items": {
       "start": {
         "tag": "Obuka",
@@ -112,11 +112,6 @@
         "tag": "Investicija",
         "q": "Koji je minimalni iznos investicije?",
         "a": "Minimalni prag je 100.000 €. Uz taj iznos, mjesečni prihod je 1.000 € (12.000 € godišnje)."
-      },
-      "countries": {
-        "tag": "Franšiza",
-        "q": "Mogu li otvoriti franšizu u drugoj zemlji?",
-        "a": "Da. iPODO posluje u Rusiji, Crnoj Gori, Njemačkoj i UAE. Otvaranje u novoj zemlji se dogovara individualno."
       }
     }
   },

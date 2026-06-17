@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './FAQ.module.css'
 
-const FAQ_KEYS = ['start','duration','income','formats','remote','guarantee','minAmount','countries']
+const FAQ_KEYS = ['start','duration','income','formats','remote','guarantee','minAmount']
 
 export default function FAQ() {
   const { t } = useTranslation()
